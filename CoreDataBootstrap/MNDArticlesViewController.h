@@ -1,5 +1,5 @@
 //
-//  MNDViewController.h
+//  MNDArticlesViewController.h
 //  CoreDataBootstrap
 //
 //  Created by Haldun Bayhantopcu on 05/02/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNDCoreDataTableViewController.h"
 
-@interface MNDViewController : UIViewController
+@interface MNDArticlesViewController : MNDCoreDataTableViewController
 
 @end

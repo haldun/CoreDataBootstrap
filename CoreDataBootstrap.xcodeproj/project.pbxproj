@@ -14,13 +14,17 @@
 		27E5A71718A2A35900374906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A71618A2A35900374906 /* main.m */; };
 		27E5A71B18A2A35900374906 /* MNDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A71A18A2A35900374906 /* MNDAppDelegate.m */; };
 		27E5A71E18A2A35900374906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E5A71C18A2A35900374906 /* Main.storyboard */; };
-		27E5A72118A2A35900374906 /* MNDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A72018A2A35900374906 /* MNDViewController.m */; };
 		27E5A72318A2A35900374906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E5A72218A2A35900374906 /* Images.xcassets */; };
 		27E5A72A18A2A35900374906 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E5A72918A2A35900374906 /* XCTest.framework */; };
 		27E5A72B18A2A35900374906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E5A70A18A2A35900374906 /* Foundation.framework */; };
 		27E5A72C18A2A35900374906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E5A70E18A2A35900374906 /* UIKit.framework */; };
 		27E5A73418A2A35900374906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27E5A73218A2A35900374906 /* InfoPlist.strings */; };
 		27E5A73618A2A35900374906 /* CoreDataBootstrapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A73518A2A35900374906 /* CoreDataBootstrapTests.m */; };
+		27E5A74318A2A38600374906 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A74118A2A38600374906 /* Model.xcdatamodeld */; };
+		27E5A74618A2B30400374906 /* MNDArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A74518A2B30400374906 /* MNDArticle.m */; };
+		27E5A74A18A2B44500374906 /* MNDDataModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A74918A2B44500374906 /* MNDDataModelHelper.m */; };
+		27E5A74D18A2B90C00374906 /* MNDArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A74C18A2B90C00374906 /* MNDArticlesViewController.m */; };
+		27E5A75118A2BCC700374906 /* MNDCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E5A75018A2BCC700374906 /* MNDCoreDataTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,21 @@
 		27E5A71918A2A35900374906 /* MNDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNDAppDelegate.h; sourceTree = "<group>"; };
 		27E5A71A18A2A35900374906 /* MNDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNDAppDelegate.m; sourceTree = "<group>"; };
 		27E5A71D18A2A35900374906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27E5A71F18A2A35900374906 /* MNDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNDViewController.h; sourceTree = "<group>"; };
-		27E5A72018A2A35900374906 /* MNDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNDViewController.m; sourceTree = "<group>"; };
 		27E5A72218A2A35900374906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27E5A72818A2A35900374906 /* CoreDataBootstrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataBootstrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E5A72918A2A35900374906 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		27E5A73118A2A35900374906 /* CoreDataBootstrapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataBootstrapTests-Info.plist"; sourceTree = "<group>"; };
 		27E5A73318A2A35900374906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27E5A73518A2A35900374906 /* CoreDataBootstrapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataBootstrapTests.m; sourceTree = "<group>"; };
+		27E5A74218A2A38600374906 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		27E5A74418A2B30400374906 /* MNDArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDArticle.h; sourceTree = "<group>"; };
+		27E5A74518A2B30400374906 /* MNDArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDArticle.m; sourceTree = "<group>"; };
+		27E5A74818A2B44500374906 /* MNDDataModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDDataModelHelper.h; sourceTree = "<group>"; };
+		27E5A74918A2B44500374906 /* MNDDataModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDDataModelHelper.m; sourceTree = "<group>"; };
+		27E5A74B18A2B90C00374906 /* MNDArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDArticlesViewController.h; sourceTree = "<group>"; };
+		27E5A74C18A2B90C00374906 /* MNDArticlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDArticlesViewController.m; sourceTree = "<group>"; };
+		27E5A74F18A2BCC700374906 /* MNDCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNDCoreDataTableViewController.h; sourceTree = "<group>"; };
+		27E5A75018A2BCC700374906 /* MNDCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNDCoreDataTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +123,9 @@
 		27E5A71018A2A35900374906 /* CoreDataBootstrap */ = {
 			isa = PBXGroup;
 			children = (
-				27E5A71918A2A35900374906 /* MNDAppDelegate.h */,
-				27E5A71A18A2A35900374906 /* MNDAppDelegate.m */,
-				27E5A71C18A2A35900374906 /* Main.storyboard */,
-				27E5A71F18A2A35900374906 /* MNDViewController.h */,
-				27E5A72018A2A35900374906 /* MNDViewController.m */,
-				27E5A72218A2A35900374906 /* Images.xcassets */,
+				27E5A74018A2A37500374906 /* Models */,
+				27E5A73F18A2A36700374906 /* Views */,
+				27E5A74E18A2B91000374906 /* View Controllers */,
 				27E5A71118A2A35900374906 /* Supporting Files */,
 			);
 			path = CoreDataBootstrap;
@@ -126,6 +134,9 @@
 		27E5A71118A2A35900374906 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27E5A72218A2A35900374906 /* Images.xcassets */,
+				27E5A71918A2A35900374906 /* MNDAppDelegate.h */,
+				27E5A71A18A2A35900374906 /* MNDAppDelegate.m */,
 				27E5A71218A2A35900374906 /* CoreDataBootstrap-Info.plist */,
 				27E5A71318A2A35900374906 /* InfoPlist.strings */,
 				27E5A71618A2A35900374906 /* main.m */,
@@ -150,6 +161,45 @@
 				27E5A73218A2A35900374906 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E5A73F18A2A36700374906 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27E5A71C18A2A35900374906 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		27E5A74018A2A37500374906 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27E5A74118A2A38600374906 /* Model.xcdatamodeld */,
+				27E5A74818A2B44500374906 /* MNDDataModelHelper.h */,
+				27E5A74918A2B44500374906 /* MNDDataModelHelper.m */,
+				27E5A74718A2B30800374906 /* Generated Core Data Models */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		27E5A74718A2B30800374906 /* Generated Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				27E5A74418A2B30400374906 /* MNDArticle.h */,
+				27E5A74518A2B30400374906 /* MNDArticle.m */,
+			);
+			name = "Generated Core Data Models";
+			sourceTree = "<group>";
+		};
+		27E5A74E18A2B91000374906 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27E5A74F18A2BCC700374906 /* MNDCoreDataTableViewController.h */,
+				27E5A75018A2BCC700374906 /* MNDCoreDataTableViewController.m */,
+				27E5A74B18A2B90C00374906 /* MNDArticlesViewController.h */,
+				27E5A74C18A2B90C00374906 /* MNDArticlesViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E5A71B18A2A35900374906 /* MNDAppDelegate.m in Sources */,
+				27E5A74D18A2B90C00374906 /* MNDArticlesViewController.m in Sources */,
+				27E5A75118A2BCC700374906 /* MNDCoreDataTableViewController.m in Sources */,
 				27E5A71718A2A35900374906 /* main.m in Sources */,
-				27E5A72118A2A35900374906 /* MNDViewController.m in Sources */,
+				27E5A74618A2B30400374906 /* MNDArticle.m in Sources */,
+				27E5A74A18A2B44500374906 /* MNDDataModelHelper.m in Sources */,
+				27E5A74318A2A38600374906 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +525,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27E5A74118A2A38600374906 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27E5A74218A2A38600374906 /* Model.xcdatamodel */,
+			);
+			currentVersion = 27E5A74218A2A38600374906 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 27E5A6FF18A2A35900374906 /* Project object */;
 }
