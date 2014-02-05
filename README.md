@@ -1,0 +1,4 @@
+CoreDataBootstrap
+=================
+
+CoreData boilerplates
